@@ -1,0 +1,84 @@
+
+#intro {
+    background-image: url("./Pink\ cloud.jpg");
+    height: 700px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.parallax {
+    background-image: url("./Pink\ cloud.jpg");
+   
+  
+    /* Set a specific height */
+    min-height: 400px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#book {
+    background-image: url("./KeyboarsGlassesPens.jpg"); 
+    height: 300px;
+    background-size: cover;
+    
+} 
+
+ h2 {
+    color: white;
+    text-transform: uppercase;
+    
+}
+
+p {
+    color:white;
+    
+    /* font-size: large; */
+}
+h1 {
+    font-family: 'Passions Conflict', cursive;
+    font-size: 150px;
+    margin-top:20% ;
+    
+}
+footer {
+background-color: rgba(229, 184, 229, 0.191);
+    display: grid;
+    grid-template-columns: 1fr,1fr;
+
+    
+}
+footer ul {
+    list-style: none;
+    grid-column: 2;
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 70px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+body  {
+  background-color: rgba(238, 137, 238, 0.285);
+  /* background-color: rgba(130, 129, 129, 0.47); */
+}
+div img {
+    border-radius: 70px;
+   border-style:double;
+   border-width: 10px;
+   border-color: white;
+
+}
+.navbar-toggler {
+    background-color:white;
+    
+}
+.navbar-toggler:hover {
+    background-color: rgba(114, 120, 125, 0.489);
+}
+
+
+
+
+  

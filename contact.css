@@ -1,0 +1,78 @@
+
+body {
+    background-color:rgba(205, 143, 168, 0.52);
+}
+div input{
+    background-color: rgba(236, 238, 238, 0.702);
+    border-radius: 25px;
+    
+
+}
+div textarea{
+    background-color: rgba(236, 238, 238, 0.702);
+    border-radius: 25px;
+    
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 160px;
+}
+div input {
+    padding-right: 100px;
+}
+#intro {
+    background-image: url("./PlantCoffeCHair.jpg");
+    /* height: 700px; */
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#right {
+    background-image: url("./LifeIsYourCreation.jpg");
+    height: 450px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    margin-top: 10px;
+}
+h1{
+color: white;
+font-size: 70px;
+font-family: 'Shadows Into Light', cursive;
+}
+
+
+
+
+
+
+
+
+
+
+.navbar-toggler {
+    background-color:white;
+    
+}
+.navbar-toggler:hover {
+    background-color: rgba(114, 120, 125, 0.489);
+}
+footer {
+    background-color: rgba(229, 184, 229, 0.191);
+        display: grid;
+        grid-template-columns: 1fr,1fr;
+    border: 2px solid rgba(238, 124, 124, 0.643);
+        
+    }
+    footer ul {
+        list-style: none;
+        grid-column: 2;
+        display: flex;
+        justify-content: space-evenly;
+        padding-right: 70px;
+        margin-left: 80px;
+        margin-top: 20px;
+    }
