@@ -60,6 +60,10 @@ font-family: 'Shadows Into Light', cursive;
 .navbar-toggler:hover {
     background-color: rgba(114, 120, 125, 0.489);
 }
+.nav-link{
+    font-family: 'Permanent Marker'
+}
+
 footer {
     background-color: rgba(229, 184, 229, 0.191);
         display: grid;
