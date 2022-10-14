@@ -1,0 +1,53 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar-toggler {
+    background-color:white;
+    
+}
+.navbar-toggler:hover {
+    background-color: rgba(114, 120, 125, 0.489);
+}
+.nav-link{
+  font-family: 'Permanent Marker'
+}
+footer {
+    
+        display: grid;
+        grid-template-columns: 1fr,1fr;
+    
+        
+    }
+    footer ul {
+        list-style: none;
+        grid-column: 2;
+        display: flex;
+        justify-content: space-evenly;
+        padding-right: 70px;
+        margin-left: 80px;
+        margin-top: 20px;
+    }
