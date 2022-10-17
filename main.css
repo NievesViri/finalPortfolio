@@ -41,8 +41,7 @@ h1 {
     font-family: 'Passions Conflict', cursive;
     font-size: 150px;
     margin-top:20% ;
-    /* transition:ease-in .5ms; */
-    /* transition-delay: ease .5ms; */
+    
     }
  
 footer {
@@ -76,13 +75,19 @@ div img {
     background-color:white;
     
 }
-.navbar-toggler:hover {
-    background-color: rgba(114, 120, 125, 0.489);
-}
-.nav-link{
-    font-family: 'Permanent Marker'
+a.nav-link{
+    font-family: 'Permanent Marker', cursive;
+    opacity: .5;
 }
 
+.nav-link {
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: large;
+
+}
 
 
   

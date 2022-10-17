@@ -1,4 +1,5 @@
 
+
 body {
     background-color:rgba(205, 143, 168, 0.52);
 }
@@ -58,10 +59,23 @@ font-family: 'Shadows Into Light', cursive;
     
 }
 .navbar-toggler:hover {
-    background-color: rgba(114, 120, 125, 0.489);
+    background-color: rgba(45, 47, 48, 0.927);
 }
-.nav-link{
-    font-family: 'Permanent Marker'
+.navbar-toggler:hover {
+    background-color: rgb(14, 14, 14);
+}
+a.nav-link{
+    font-family: 'Permanent Marker', cursive;
+    opacity: .5;
+}
+
+.nav-link {
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: large;
+
 }
 
 footer {
