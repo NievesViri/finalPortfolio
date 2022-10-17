@@ -1,0 +1,90 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar-toggler {
+    background-color:white;
+   
+    
+}
+.navbar-toggler:hover {
+    background-color: rgb(14, 14, 14);
+}
+a.nav-link{
+    font-family: 'Permanent Marker', cursive;
+    opacity: .5;
+}
+
+.nav-link {
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: large;
+
+}
+footer {
+    
+        display: grid;
+        grid-template-columns: 1fr,1fr;
+    
+        
+    }
+    footer ul {
+        list-style: none;
+        grid-column: 2;
+        display: flex;
+        justify-content: space-evenly;
+        padding-right: 70px;
+        margin-left: 80px;
+        margin-top: 20px;
+    }
