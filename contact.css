@@ -98,7 +98,7 @@ footer {
         margin-left: 80px;
         margin-top: 20px;
     }
-    @media(min-width:355px){
+    @media(max-width:355px){
   div.box{
     display: flex;
     justify-content: flex-end;
