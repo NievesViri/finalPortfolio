@@ -101,15 +101,16 @@ footer {
     @media(max-width:355px){
   div.box{
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
-    /* padding-right: 950px; */
+    padding-left: 250px;
   }
   textarea{
     display: flex;
     justify-content: center;
     align-items: center; 
     flex-wrap: wrap;
+    padding-left:150px;
   }
     }
