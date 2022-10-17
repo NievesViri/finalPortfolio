@@ -30,6 +30,7 @@
 } */
 body {
   background-color: rgba(208, 167, 167, 0.59);
+  width: auto;
 }
 .container .left_side {
   position: relative;

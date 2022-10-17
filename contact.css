@@ -83,9 +83,9 @@ a.nav-link{
 }
 
 footer {
+    display: grid;
+    grid-template-columns: 1fr,1fr;
     background-color: rgba(229, 184, 229, 0.191);
-        display: grid;
-        grid-template-columns: 1fr,1fr;
     border: 2px solid rgba(238, 124, 124, 0.643);
         
     }
