@@ -1,39 +1,27 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    
+}
+body{
+    background-color: rgba(0, 0, 0, 0.535);
+    height: 100vh;
+    color: rgb(203, 176, 176);
+}
+div .picture{
+    height: 200px;
+    width: 200px;
+    border-color: 2px azure;
+}
+div img {
+    height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 500px;
+    float: right;
+}
 
 
 
@@ -58,10 +46,12 @@
 }
 .navbar-toggler:hover {
     background-color: rgb(14, 14, 14);
+    color: white;
 }
 a.nav-link{
     font-family: 'Permanent Marker', cursive;
     opacity: .5;
+    color: white;
 }
 
 .nav-link {
@@ -70,12 +60,15 @@ a.nav-link{
     justify-content: flex-end;
     align-items: flex-end;
     font-size: large;
+    color: white;
 
 }
+
 footer {
     
         display: grid;
         grid-template-columns: 1fr,1fr;
+        
     
         
     }
