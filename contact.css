@@ -33,11 +33,14 @@ div input {
 }
 #right {
     background-image: url("./LifeIsYourCreation.jpg");
-    height: 450px;
-    background-size:contain;
+    height: 650px;
+    width: 1310px;
+    /* background-size:contain; */
     background-repeat: no-repeat;
     background-attachment: fixed;  
-    margin-top: 10px;
+    /* margin-top: 10px; */
+    background-position:center;
+    background-size: 70%;
 }
 h1{
 color: white;
@@ -67,6 +70,7 @@ font-family: 'Shadows Into Light', cursive;
 a.nav-link{
     font-family: 'Permanent Marker', cursive;
     opacity: .5;
+   
 }
 
 .nav-link {

@@ -22,8 +22,54 @@ div img {
     max-height: 500px;
     float: right;
 }
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 100;
+    font-size: 70px;
+    
+}
+.left {
+  
+    height: 502px;
+    /* width: 500px; */
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
-
+}
+p {
+    font-size: 40px;
+    
+}
+span{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 65px;
+    text-decoration: underline;
+}
+/* @media (min-height:815px){
+p {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+span{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+}
+@media (min-width:870px){
+    h1{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+} */
 
 
 
@@ -41,17 +87,20 @@ div img {
 
 .navbar-toggler {
     background-color:white;
+    color: white;
+    
    
     
 }
 .navbar-toggler:hover {
-    background-color: rgb(14, 14, 14);
-    color: white;
+    background-color:rgb(164, 158, 158);
+    color: rgb(207, 194, 194);
+    
 }
 a.nav-link{
     font-family: 'Permanent Marker', cursive;
     opacity: .5;
-    color: white;
+    color: rgb(218, 200, 200);
 }
 
 .nav-link {
@@ -63,7 +112,9 @@ a.nav-link{
     color: white;
 
 }
-
+div #navbarNav {
+    color: white;
+}
 footer {
     
         display: grid;
