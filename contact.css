@@ -104,13 +104,13 @@ footer {
     justify-content: flex-end;
     align-items: flex-end;
     flex-wrap: wrap;
-    padding-left: 250px;
+    padding-right: 250px;
   }
   textarea{
     display: flex;
     justify-content: flex-end;
     align-items: flex-end; 
     flex-wrap: wrap;
-    padding-left:150px;
+    padding-right:150px;
   }
     }
