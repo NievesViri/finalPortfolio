@@ -98,3 +98,16 @@ footer {
         margin-left: 80px;
         margin-top: 20px;
     }
+    @media(max-width:530px){
+  div.box{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-wrap: wrap;
+  }
+  textarea{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+    }
