@@ -209,3 +209,13 @@ footer {
         margin-left: 100px;
         margin-top: 20px;
     }
+
+    @media (max-width:360px) {
+      footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right:57px;
+        
+       } 
+    }
