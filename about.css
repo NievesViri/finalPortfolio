@@ -110,7 +110,7 @@ a.nav-link{
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    font-size: large;
+    /* font-size: large; */
     color: white;
 
 }
