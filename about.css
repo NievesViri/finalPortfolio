@@ -50,7 +50,7 @@ span{
     font-size: 65px;
     text-decoration: underline;
 }
-/* @media (min-height:815px){
+@media (min-height:815px){
 p {
     display: flex;
     justify-content: flex-end;
@@ -63,13 +63,15 @@ span{
     align-items: flex-end;
 }
 }
-@media (min-width:870px){
+@media (mAX-width:770px){
     h1{
         display: flex;
         justify-content: flex-start;
         align-items: flex-start;
+        flex-wrap: wrap;
+        flex-shrink: 8;
     }
-} */
+}
 
 
 
@@ -111,6 +113,9 @@ a.nav-link{
     font-size: large;
     color: white;
 
+}
+.nav-link:hover{
+    background-color: whitesmoke;
 }
 div #navbarNav {
     color: white;
